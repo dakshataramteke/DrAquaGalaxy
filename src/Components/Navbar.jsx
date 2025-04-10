@@ -1,15 +1,16 @@
 import React from "react";
 import { BsListNested } from "react-icons/bs";
+import logoImg from '../assets/img/Dr. Aqua Galaxy Logos.png'
 import './Home.css';
 
 const Navbar = () => {
   return (
     <>
-      <header>
+      <header className="header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container">
             <a className="navbar-brand" href="#">
-              Navbar
+              <img src={logoImg} alt="" height={"45px"} width={"100%"} />
             </a>
 
             <button
@@ -21,7 +22,7 @@ const Navbar = () => {
             >
               <span className="fs-7"><BsListNested/></span>
             </button>
-
+            {/* Mobile view offcanvas */}
             <div
               className="offcanvas offcanvas-start"
               tabIndex="-1"
@@ -29,9 +30,7 @@ const Navbar = () => {
               aria-labelledby="offcanvasExampleLabel"
             >
               <div className="offcanvas-header">
-                <h5 className="offcanvas-title" id="offcanvasExampleLabel">
-                  Offcanvas
-                </h5>
+              <img src={logoImg} alt="" height={"40px"} width={"40%"} />
                 <button
                   type="button"
                   className="btn-close text-reset"
@@ -39,8 +38,8 @@ const Navbar = () => {
                   aria-label="Close"
                 ></button>
               </div>
-              <div className="offcanvas-body">
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <div className="offcanvas-body ">
+                <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                   <li className="nav-item">
                     <a className="nav-link active" aria-current="page" href="#">
                       Home
@@ -63,30 +62,20 @@ const Navbar = () => {
                     </a>
                   </li>
                 </ul>
-                <form className="d-flex">
-                  <input
-                    className="form-control me-2"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                  <button className="btn btn-outline-success" type="submit">
-                    Search
-                  </button>
-                </form>
+               
               </div>
             </div>
 
             {/* Horizontal Navbar  */}
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="#">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#products">
                     Products
                   </a>
                 </li>
@@ -102,17 +91,7 @@ const Navbar = () => {
                   </a>
                 </li>
               </ul>
-              <form className="d-flex">
-                <input
-                  className="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button className="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
+           
             </div>
           </div>
         </nav>

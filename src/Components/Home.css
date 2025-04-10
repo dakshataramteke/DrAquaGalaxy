@@ -1,11 +1,14 @@
 /* // Navbar  */
 
 
-button{
+.header button{
     border: none !important;
     background-color: white !important;
 }
-.navbar_data svg{
+.header .navbar_data svg{
     font-size:1.45rem !important;
     ;
+}
+.header .nav-link{
+    padding-right: 2rem  !important;
 }

@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsListNested } from "react-icons/bs";
-import logoImg from '../assets/img/Dr. Aqua Galaxy Logos.png'
+import logoImg from '../assets/img/Dr. Aqua Galaxy Logos.png';
 import './Home.css';
 
 const Navbar = () => {
+  const [activeLink, setActiveLink] = useState('#home');
+
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+    const offcanvasElement = document.getElementById('offcanvasExample');
+    const offcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
+    if (offcanvas) {
+      offcanvas.hide();
+    }
+  };
+
   return (
     <>
       <header className="header">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top z-30">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top z-30">
           <div className="container">
             <a className="navbar-brand" href="#">
               <img src={logoImg} alt="" height={"45px"} width={"100%"} />
@@ -20,7 +31,7 @@ const Navbar = () => {
               data-bs-target="#offcanvasExample"
               aria-controls="offcanvasExample"
             >
-              <span className="fs-7"><BsListNested/></span>
+              <span className="fs-7"><BsListNested /></span>
             </button>
             {/* Mobile view offcanvas */}
             <div
@@ -30,7 +41,7 @@ const Navbar = () => {
               aria-labelledby="offcanvasExampleLabel"
             >
               <div className="offcanvas-header">
-              <img src={logoImg} alt="" height={"40px"} width={"40%"} />
+                <img src={logoImg} alt="" height={"40px"} width={"40%"} />
                 <button
                   type="button"
                   className="btn-close text-reset"
@@ -41,28 +52,28 @@ const Navbar = () => {
               <div className="offcanvas-body ">
                 <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">
+                    <a className={`nav-link ${activeLink === '#home' ? 'active' : ''}`} aria-current="page" href="#home" onClick={() => handleLinkClick('#home')}>
                       Home
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#products">
+                    <a className={`nav-link ${activeLink === '#products' ? 'active' : ''}`} href="#products" onClick={() => handleLinkClick('#products')}>
                       Products
                     </a>
                   </li>
 
                   <li className="nav-item">
                     <a
-                      className="nav-link"
+                      className={`nav-link ${activeLink === '#about' ? 'active' : ''}`}
                       href="#about"
                       tabIndex="-1"
                       aria-disabled="true"
+                      onClick={() => handleLinkClick('#about')}
                     >
                       About Us
                     </a>
                   </li>
                 </ul>
-               
               </div>
             </div>
 
@@ -70,28 +81,28 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className={`nav-link ${activeLink === '#home' ? 'active' : ''}`} aria-current="page" href="#home" onClick={() => handleLinkClick('#home')}>
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#products">
+                  <a className={`nav-link ${activeLink === '#products' ? 'active' : ''}`} href="#products" onClick={() => handleLinkClick('#products')}>
                     Products
                   </a>
                 </li>
 
                 <li className="nav-item">
                   <a
-                    className="nav-link"
+                    className={`nav-link ${activeLink === '#about' ? 'active' : ''}`}
                     href="#about"
                     tabIndex="-1"
                     aria-disabled="true"
+                    onClick={() => handleLinkClick('#about')}
                   >
                     About Us
                   </a>
                 </li>
               </ul>
-           
             </div>
           </div>
         </nav>

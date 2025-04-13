@@ -1,0 +1,9 @@
+# needed Requirement 
+a.launch date of company 
+b.address
+c. Contact number
+d. Email address
+e. service Mode 
+f. Time 
+g. warentty
+h. price

@@ -3,12 +3,37 @@
 
 .header button{
     border: none !important;
-    background-color: white !important;
+    /* background-color: white !important; */
 }
+/* .header .navbar{
+    position: fixed;
+    top: 0;
+} */
 .header .navbar_data svg{
     font-size:1.45rem !important;
-    ;
 }
 .header .nav-link{
     padding-right: 2rem  !important;
 }
+.header .active{
+    font-weight: bold !important;
+}
+.Ro_Uv img{
+    width: 200px;
+}
+/* Video Controls  */
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+.video-controls .mute-button {
+    display: none; /* Ensure the mute button is hidden */
+}
+
+.video-controls .duration {
+    display: none; /* Ensure the duration is hidden */
+}
+.about_us p{
+    line-height: 1.7;
+}
+

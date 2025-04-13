@@ -7,14 +7,14 @@ const Navbar = () => {
   return (
     <>
       <header className="header">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top z-30">
           <div className="container">
             <a className="navbar-brand" href="#">
               <img src={logoImg} alt="" height={"45px"} width={"100%"} />
             </a>
 
             <button
-              className="order-last d-lg-none bg-none navbar_data"
+              className="order-last d-lg-none bg-none navbar_data bg-light"
               type="button"
               data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasExample"
@@ -46,7 +46,7 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="#products">
                       Products
                     </a>
                   </li>
@@ -54,7 +54,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <a
                       className="nav-link"
-                      href="#"
+                      href="#about"
                       tabIndex="-1"
                       aria-disabled="true"
                     >
@@ -83,7 +83,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <a
                     className="nav-link"
-                    href="#"
+                    href="#about"
                     tabIndex="-1"
                     aria-disabled="true"
                   >

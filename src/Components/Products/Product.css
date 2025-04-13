@@ -1,4 +1,93 @@
+:root{
+    --black:black;
+    --white:white;
+    --brown : #a9501c;
+}
+h1{
+   text-align: center;
+}
+.all_products .card-body{
+    /* border: none; */
+    padding-top: 0;
+}
 .all_products img{
 height:auto;
 width: 100%;
+padding: 0.75rem;
+border-radius: 22px;
+}
+
+.all_products h5 ,
+.all_products p{
+    text-align: center;
+}
+
+
+
+/* Other Products  */
+.other_products img{
+    height:350px !important;
+    width: 100% !important;
+}
+/* @media(max-width:1200px){
+    .first_card{
+        margin-left: 6rem;
+    } 
+}
+
+@media(max-width:768px){
+    .first_card{
+        margin-left: 0;
+    } 
+} */
+
+
+
+/* Models Animation Scrollling  */
+.modelPage, 
+.cardPageRo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+.scrollingPage img{
+  width: 130px;
+  height: 70px;
+  margin: 1.5rem !important;
+}
+@media(max-width:400px){
+    .scrollingPage img{
+        margin: 1rem 0.5rem !important;
+    }
+}
+.cardPageRo img{
+    width: 180px;
+  height: 90px;
+  margin: 1.5rem !important;
+}
+/* @media(max-width:430px){
+    .scrollingPage img{
+        margin: 1rem 0.5rem !important;
+    }
+} */
+
+
+/* Box products  */
+.box_page{
+background-image: url('../../assets/img/v748-toon-111.jpg');
+background-color: rgba(0, 0, 0, 0.5);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.box_product .product_Data{
+    text-indent: 35px;
+    line-height: 1.7;
+    text-align: justify;
+    margin: 1.5rem 0;
+}
+.box_product .box_img{
+    background-size: contain;
+    position: relative;
+    z-index: 5;
 }

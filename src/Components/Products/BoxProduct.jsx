@@ -6,7 +6,7 @@ const BoxProduct = () => {
     <>
       <section id="box-product" className='box_product'>
         <div className="container">
-            <div className="row  my-5 box_page">
+            <div className="row  my-5 box_page py-3">
                 <div className="col-12 col-md-5">
                     <img src={boxImg} alt="" height={"500px"} width={"100%"} className='box_img'/>
                 </div>

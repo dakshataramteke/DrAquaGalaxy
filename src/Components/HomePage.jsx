@@ -9,17 +9,17 @@ const HomePage = () => {
   return (
     <>
       <section id='home'>
-    <div className="container-fluid">
+    <div className="container-fluid videoPage">
       <div className="row">
         <div className="col-12 col-md-9">
-        <video className="embed-responsive-item" autoPlay loop muted style={{ width: '100%', height: '90vh', marginTop:'5rem' }}>
+        <video className="embed-responsive-item" autoPlay loop muted >
     <source src={DrAquaHome} type="video/mp4" />
 </video>
         </div>
         <div className="col-12 col-md-2 Ro_Uv d-flex flex-column justify-content-center align-items-center gap-3">
-       <img src={Magnesium} alt="" className='animate__animated animate__fadeInRight' />
-       <img src={TDS} alt=""  className='animate__animated animate__fadeInRight' />
-       <img src={TestedOk} alt=""  className='animate__animated animate__fadeInRight' />
+       <img src={Magnesium} alt=""  />
+       <img src={TDS} alt=""   />
+       <img src={TestedOk} alt="" />
         </div>
       </div>
     </div>

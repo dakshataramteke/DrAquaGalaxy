@@ -3,7 +3,7 @@ import React from 'react'
 const ProductPrice = () => {
   return (
     <>
-      <section className='bg-light'>
+      <section className='' style={{backgroundColor:'#dfa889'}}>
         <div className="container">
             <div className="row py-5 text-center ">
                 <div className="col" style={{lineHeight:'1.8'}}>

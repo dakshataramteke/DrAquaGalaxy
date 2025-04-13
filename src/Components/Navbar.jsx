@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BsListNested } from "react-icons/bs";
+import MenuIcon from '@mui/icons-material/Menu';
 import logoImg from '../assets/img/Dr. Aqua Galaxy Logos.png';
 import './Home.css';
 
@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <>
       <header className="header">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top z-30">
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top z-30 bg-light" >
           <div className="container">
             <a className="navbar-brand" href="#">
               <img src={logoImg} alt="" height={"45px"} width={"100%"} />
@@ -31,7 +31,7 @@ const Navbar = () => {
               data-bs-target="#offcanvasExample"
               aria-controls="offcanvasExample"
             >
-              <span className="fs-7"><BsListNested /></span>
+              <span ><MenuIcon/></span>
             </button>
             {/* Mobile view offcanvas */}
             <div

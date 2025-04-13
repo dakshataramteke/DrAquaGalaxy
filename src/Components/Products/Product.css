@@ -10,11 +10,14 @@ h1{
     /* border: none; */
     padding-top: 0;
 }
+.all_products .card{
+    border-radius: 16px; 
+}
 .all_products img{
 height:auto;
 width: 100%;
 padding: 0.75rem;
-border-radius: 22px;
+border-radius: 26px;
 }
 
 .all_products h5 ,
@@ -25,21 +28,18 @@ border-radius: 22px;
 
 
 /* Other Products  */
+.other_products{
+    /* border: 2px solid black; */
+}
+.other_products .card{
+    border: none;
+}
 .other_products img{
     height:350px !important;
     width: 100% !important;
-}
-/* @media(max-width:1200px){
-    .first_card{
-        margin-left: 6rem;
-    } 
+    /* margin:  0 1.2rem; */
 }
 
-@media(max-width:768px){
-    .first_card{
-        margin-left: 0;
-    } 
-} */
 
 
 
@@ -53,7 +53,7 @@ border-radius: 22px;
 .scrollingPage img{
   width: 130px;
   height: 70px;
-  margin: 1.5rem !important;
+  margin: 1.5rem  0 !important;
 }
 @media(max-width:400px){
     .scrollingPage img{
@@ -74,11 +74,12 @@ border-radius: 22px;
 
 
 /* Box products  */
-.box_page{
+.box_product{
 background-image: url('../../assets/img/v748-toon-111.jpg');
 background-color: rgba(0, 0, 0, 0.5);
 background-size: cover;
 background-repeat: no-repeat;
+
 }
 
 .box_product .product_Data{

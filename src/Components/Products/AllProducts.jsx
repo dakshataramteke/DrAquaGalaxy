@@ -6,6 +6,7 @@ import Pluto from "../../assets/img/PlutoAlkalineCop12L.jpg";
 import Mercury from '../../assets/img/MercuryAlkaline13L.jpg';
 import Plus from '../../assets/img/blueImg.jpg';
 import UTC from '../../assets/img/UTCSinkRO.jpg';
+import BioAlkalineCop from '../../assets/img/BioAlkalineCopper12L.jpg';
 // import './Product.css';
 
 const AllProducts = () => {
@@ -93,6 +94,17 @@ const AllProducts = () => {
                   <h5 className="card-title">UTC under Sink RO</h5>
                   <p className="card-text">
                   Storage Capacity 12L /18L /24L
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-4 col-lg-3 mt-2  mt-md-4">
+              <div className="card">
+                <img src={BioAlkalineCop} className="card-img-top" alt="..." />
+                <div className="card-body">
+                <h5 className="card-title">Bio (Alkaline+Copper)</h5>
+                  <p className="card-text">
+                   Storage Capacity 12L
                   </p>
                 </div>
               </div>

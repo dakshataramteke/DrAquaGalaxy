@@ -1,9 +1,7 @@
-# needed Requirement 
-a.launch date of company 
-b.address
-c. Contact number
-d. Email address
-e. service Mode 
-f. Time 
-g. warentty
-h. price
+star - 18500/-
+bio - 18500/-
+primium - 20500/-
+pluto - 18500
+mercury 20500
+plus - 16500
+utc -  18500, 20500 , 24500 

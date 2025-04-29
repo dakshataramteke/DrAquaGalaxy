@@ -1,58 +1,76 @@
 /* // Navbar  */
 
-
-.header button{
-    border: none !important;
-    /* background-color: white !important; */
+.header button {
+  border: none !important;
+  /* background-color: white !important; */
 }
 
-.header .navbar_data svg{
-    font-size:1.575rem !important;
-    font-weight:900 !important;
+.header .navbar_data svg {
+  font-size: 1.575rem !important;
+  font-weight: 900 !important;
 }
-.header .nav-link{
-    padding-right: 2rem  !important;
+.header .nav-link {
+  padding-right: 2rem !important;
+  color: black !important;
 }
-.header .active{
-    font-weight: bold !important;
+.header .active {
+  font-weight: bold !important;
+  color:#00B6FF !important;
 }
-.Ro_Uv img{
-    width: 200px;
+.Ro_Uv img {
+  width: 200px;
 }
 /* Video Controls  */
-.embed-responsive-item{
+.embed-responsive-item {
+  width: 100%;
+  height: 90vh;
+  margin-top: 5rem;
+}
+@media (max-width: 430px) {
+  .embed-responsive-item {
     width: 100%;
-    height: 90vh;
-     margin-top:5rem
-    }
-@media(max-width:430px){
-    .embed-responsive-item{
-        width: 100%;
-        height: 70vh !important;
-         margin-top:1rem !important;
-        }
+    height: 70vh !important;
+    margin-top: 1rem !important;
+  }
 }
-video::-webkit-media-controls {
-    display: none !important;
-}
-
-.video-controls .mute-button {
-    display: none; /* Ensure the mute button is hidden */
-}
-
-.video-controls .duration {
-    display: none; /* Ensure the duration is hidden */
+.position-relative {
+    position: relative;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    outline: none;
+    z-index: 10; /* Ensure it is above the video */
+  }
+  
+  .play-button:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker on hover */
+  }
+@media only screen and (orientation: landscape) {
+  .home {
+    margin-top: 5rem !important;
+  }
 }
 
 /* About us  */
-.about_us p{
-    line-height: 1.7;
-    text-indent: 20px;
-    text-align: justify;
+.about_us p {
+  line-height: 1.7;
+  text-indent: 20px;
+  text-align: justify;
 }
-@media(max-width:430px){
-    .about_us img{
-        width: 90% !important;
-        padding: 0.75rem !important;
-    }
+
+@media (max-width: 430px) {
+  .about_us img {
+    width: 90% !important;
+    padding: 0.75rem !important;
+  }
 }

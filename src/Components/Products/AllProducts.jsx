@@ -12,19 +12,20 @@ import BioAlkalineCop from '../../assets/img/BioAlkalineCopper12L.jpg';
 const AllProducts = () => {
   return (
     <>
-      <section id="products">
+      <section id="products" className="my-3">
         <div className="container">
         <h1 className="py-3">All Products</h1>
         {/* <p>All type of Water Filter Available</p> */}
           <div className="row all_products">
-            <div className="col-12 col-md-4 col-lg-3 mt-2 mt-md-4">
+            <div className="col-12 col-md-4 col-lg-3 mt-2 mt-md-4" >
               <div className="card">
                 <img src={StarAlkaline} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Star (Alkaline+Copper)</h5>
                   <p className="card-text">
-                   Storage Capacity 10L
+                   Storage Capacity 10Ltr
                   </p>
+                  <p>Price : <b>&#8377; 18,500/-</b></p>
                 </div>
               </div>
             </div>
@@ -34,8 +35,9 @@ const AllProducts = () => {
                 <div className="card-body">
                   <h5 className="card-title">Bio (Alkaline+Copper)</h5>
                   <p className="card-text">
-                   Storage Capacity 12L
+                   Storage Capacity 12Ltr
                   </p>
+                  <p>Price : <b>&#8377; 18,500/-</b></p>
                 </div>
               </div>
             </div>
@@ -45,8 +47,9 @@ const AllProducts = () => {
                 <div className="card-body">
                   <h5 className="card-title">Primium(Alkaline+Copper)</h5>
                   <p className="card-text">
-                  Storage Capacity 10L
+                  Storage Capacity 10Ltr
                   </p>
+                  <p>Price : <b>&#8377; 20,500/-</b></p>
                 </div>
               </div>
             </div>
@@ -57,8 +60,9 @@ const AllProducts = () => {
                 <div className="card-body">
                   <h5 className="card-title">Pluto (Alkaline+Copper)</h5>
                   <p className="card-text">
-                  Storage Capacity 12L
+                  Storage Capacity 12Ltr
                   </p>
+                  <p>Price : <b>&#8377; 18,500/-</b></p>
                 </div>
               </div>
             </div>
@@ -69,8 +73,9 @@ const AllProducts = () => {
                 <div className="card-body">
                   <h5 className="card-title">Mercury (Alkaline+Copper)</h5>
                   <p className="card-text">
-                  Storage Capacity 13L
+                  Storage Capacity 13Ltr
                   </p>
+                  <p>Price : <b>&#8377; 20,500/-</b></p>
                 </div>
               </div>
             </div>
@@ -81,8 +86,9 @@ const AllProducts = () => {
                 <div className="card-body">
                   <h5 className="card-title">Plus (Alkaline+Copper)</h5>
                   <p className="card-text">
-                  Storage Capacity 12L
+                  Storage Capacity 12Ltr
                   </p>
+                  <p>Price : <b>&#8377; 16,500/-</b></p>
                 </div>
               </div>
             </div>
@@ -92,9 +98,12 @@ const AllProducts = () => {
                 <img src={UTC} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">UTC under Sink RO</h5>
-                  <p className="card-text">
+                  {/* <p className="card-text">
                   Storage Capacity 12L /18L /24L
-                  </p>
+                  </p> */}
+                  <p className="mb-0">Price : 12Ltr <b>&#8377; 18,500/-</b></p>
+                  <p className="mb-0">Price : 18Ltr <b>&#8377; 20,500/-</b></p>
+                  <p>Price : 24Ltr <b>&#8377; 24,500/-</b></p>
                 </div>
               </div>
             </div>
@@ -104,8 +113,9 @@ const AllProducts = () => {
                 <div className="card-body">
                 <h5 className="card-title">Bio (Alkaline+Copper)</h5>
                   <p className="card-text">
-                   Storage Capacity 12L
+                   Storage Capacity 12Ltr
                   </p>
+                  <p>Price : <b>&#8377; 18,500/-</b></p>
                 </div>
               </div>
             </div>

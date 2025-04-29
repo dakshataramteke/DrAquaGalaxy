@@ -6,11 +6,7 @@ import bio from '../../assets/img/Model/Biol.jpg';
 import plus from '../../assets/img/Model/plusl.jpg';
 import pluto from '../../assets/img/Model/plutol.jpg';
 import diamond from '../../assets/img/Model/Diamondl.jpg';
-import carbonFilter from '../../assets/img/Model/CarbonFilter.jpg';
-import copperFilter from '../../assets/img/Model/CopperFitter.jpg';
-import RoMembrane from '../../assets/img/Model/ROMembrane.jpg';
-import Sedium from '../../assets/img/Model/Sedium.jpg';
-import UltraViolet from '../../assets/img/Model/UltraViolet.jpg';
+
 
 const Model = () => {
   return (
@@ -36,7 +32,7 @@ const Model = () => {
       </div>
 
       {/* 2nd Row  */}
-      <div className="row">
+      {/* <div className="row">
       <div className="cardPageRo">
           <img src={carbonFilter} alt="" />
        
@@ -49,7 +45,7 @@ const Model = () => {
           <img src={UltraViolet} alt="" />
 
         </div>
-      </div>
+      </div> */}
     </div>
     </div>
      

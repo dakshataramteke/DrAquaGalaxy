@@ -45,7 +45,7 @@ const AllProducts = () => {
               <div className="card">
                 <img src={Primium} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Primium(Alkaline+Copper)</h5>
+                  <h5 className="card-title">Primium (Alkaline+Copper)</h5>
                   <p className="card-text">
                   Storage Capacity 10Ltr
                   </p>
@@ -101,9 +101,9 @@ const AllProducts = () => {
                   {/* <p className="card-text">
                   Storage Capacity 12L /18L /24L
                   </p> */}
-                  <p className="mb-0">Price : 12Ltr <b>&#8377; 18,500/-</b></p>
-                  <p className="mb-0">Price : 18Ltr <b>&#8377; 20,500/-</b></p>
-                  <p>Price : 24Ltr <b>&#8377; 24,500/-</b></p>
+                  <p className="mb-0">Price : 12Ltr - <b>&#8377; 18,500/-</b></p>
+                  <p className="mb-0">Price : 18Ltr - <b>&#8377; 20,500/-</b></p>
+                  <p>Price : 24Ltr - <b>&#8377; 24,500/-</b></p>
                 </div>
               </div>
             </div>

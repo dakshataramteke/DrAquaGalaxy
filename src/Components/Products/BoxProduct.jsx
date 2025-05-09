@@ -43,12 +43,12 @@ const BoxProduct = () => {
     <tr>
      
      <td>Inlet Water Pressure / Temp (MIN)</td>
-     <td>0.3 kg /cm2 or 4.3psi/10 C of 50 F</td>
+     <td>0.3 kg / cm<sup>2</sup> or 4.3psi / 10&deg; C of 50&deg; F</td>
    </tr>
    <tr>
      
      <td>Inlet Water Pressure / Temp (MAX)</td>
-     <td>3 kg /cm2 or 42.7psi/40 C of 104 F</td>
+     <td>3 kg / cm<sup>2</sup> or 42.7psi / 40&deg; C of 104&deg; F</td>
    </tr>
    <tr>
      
@@ -67,7 +67,7 @@ const BoxProduct = () => {
    </tr>
    <tr>
      
-     <td>Maximun Duty Cycle</td>
+     <td>Maximum Duty Cycle</td>
      <td>100 L /Day</td>
    </tr>
    <tr>
@@ -89,7 +89,7 @@ const BoxProduct = () => {
    <tr>
      
      <td>Input Power Supply</td>
-     <td>Single Phase 220 + 10 V AC, 50 Hz</td>
+     <td>Single Phase 220 &#177; 10 V AC, 50 Hz</td>
    </tr>
   </tbody>
 </table>

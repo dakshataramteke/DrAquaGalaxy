@@ -2,14 +2,8 @@
     --black:black;
     --white:white;
     /* --brown : #a9501c; */
-    --royalblue :  #3f51b5;
-    --amber : #ffc107;
-    --coolwhite :#fafafa;
-    --gunmetalgray : #37474f;
 }
-/* h1{
-   text-align: center;
-} */
+
 h1 {
     /* font-size: 1.8rem; */
     background: linear-gradient(45deg, #00ffff, #0066ff);
@@ -26,11 +20,6 @@ h1 {
     border-radius: 16px; 
     background-color: #fafafa;
 }
-/* .all_products .card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 10px rgba(0, 255, 255, 0.2);
-    border: 1px solid rgba(0, 255, 255, 0.4);
-} */
 
 .all_products img{
 height:auto;
@@ -48,19 +37,12 @@ border-radius: 26px;
 }
 
 
-
 /* Other Products  */
 
-.other_products .card{
-    border: none;
-}
 .other_products img{
     /* height:350px !important; */
     width: 100% !important;
-    /* margin:  0 1.2rem; */
 }
-
-
 
 
 /* Models Animation Scrollling  */
@@ -119,4 +101,8 @@ background-repeat: no-repeat;
     .box_product .box_img{
         height:500px;
     }
+}
+
+tbody, td, tfoot, th, thead, tr{
+    border-color: #0000A0;
 }

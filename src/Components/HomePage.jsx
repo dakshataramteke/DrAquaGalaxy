@@ -23,7 +23,7 @@ const HomePage = () => {
   return (
     <>
       <section id='home' className='home'>
-        <div className="container-fluid videoPage">
+        <div className="container-fluid ">
           <div className="row">
             <div className="col-12 col-md-9 position-relative">
               <video ref={videoRef} className="embed-responsive-item" loop>
@@ -37,9 +37,9 @@ const HomePage = () => {
               )}
             </div>
             <div className="col-12 col-md-2 Ro_Uv d-flex flex-column justify-content-center align-items-center gap-3">
-              <img src={Magnesium} alt="" />
-              <img src={Alkaline} alt="" />
-              <img src={ISO} alt="" />
+              <img src={Magnesium} alt="Magnesium" />
+              <img src={Alkaline} alt="Alkaline" />
+              <img src={ISO} alt="ISO" />
             </div>
           </div>
         </div>

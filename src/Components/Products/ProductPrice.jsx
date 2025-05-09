@@ -9,7 +9,7 @@ const ProductPrice = () => {
                 <div className="col" style={{lineHeight:'1.8'}}>
                     <p>All Types of Water Filter Available</p>
                   <h5>1 Year Guarantee on Products</h5>
-                  <p>Storage Capacities ranging from <b><i> 10 Ltr </i></b>to  <b><i>24 Ltr </i></b></p>
+                  <p>Storage Capacities ranging from <b><i> 10 Ltr &nbsp;</i></b>to  <b><i>&nbsp;24 Ltr </i></b></p>
                   <h5>Price of Products will be <b><i style={{color: '#893f14'}}>16,500/- </i></b> , <b><i style={{color: '#893f14'}}> 18,500/- </i></b>&  <b><i style={{color: '#893f14'}}>20,500 /-</i></b> more...</h5>
                 </div>
             </div>

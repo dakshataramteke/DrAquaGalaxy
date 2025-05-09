@@ -11,12 +11,12 @@ const AboutUs = () => {
                 <div className="col-12 col-md-10">
                     <p ><b><i>Dr Aqua Galaxy,</i></b>  where our commitment to health and sustainability drives 
                     everything we do.</p>
-                    <p>Our diverse range of products, including our Alkaline and Copper Water Purifiers, is designed to various needs and preferences. With storage capacities ranging from 10Ltr to 24Ltr , We ensure that our solutions fit seamlessly into your lifestyle, providing you with the purest water at your convenience.</p>
+                    <p>Our diverse range of products, including our Alkaline and Copper Water Purifiers, is designed to various needs and preferences. With storage capacities ranging from 10Ltr to 24Ltr, We ensure that our solutions fit seamlessly into your lifestyle, providing you with the purest water at your convenience.</p>
                 <p>ISO Certification signifies that a business meets rigorous quality management standards, enhancing its credibility and operational efficiency.</p>
                 </div>
                 {/* <div className="col-md-1"></div> */}
                 <div className="col-12 col-md-2 d-flex justify-content-center tested_ok p-0">
-                    <img src={Tested} alt="" style={{width:'100%', padding:'0 1rem'}} className='animate__animated animate__flash'/>
+                    <img src={Tested} alt="tested" style={{width:'100%', padding:'0 1rem'}} className='animate__animated animate__flash'/>
                 </div>
             </div>
         </div>

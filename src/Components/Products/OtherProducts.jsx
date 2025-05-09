@@ -1,7 +1,7 @@
 import React from 'react';
 import LPH from '../../assets/img/50-80lph.jpg';
-import membrane from '../../assets/img/80membrane.jpg';
-import pump from '../../assets/img/300gpdpump.jpg';
+// import membrane from '../../assets/img/80membrane.jpg';
+// import pump from '../../assets/img/300gpdpump.jpg';
 import './Product.css';
 
 
@@ -14,7 +14,7 @@ const OtherProducts = () => {
                 <div className="row other_products all_products">
                   <div className="offset-lg-1 col-12 col-md-4 col-lg-3 mt-2 mt-md-0 my-3">
                     <div className="card"  >
-                      <img src={LPH} className="card-img-top" alt="..." />
+                      <img src={LPH} className="card-img-top" alt="lph" />
                       <div className="card-body">
                         <h5 className="card-title">50-80LPH <br/> (with Pressure Gauge)</h5>
                        

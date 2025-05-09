@@ -19,7 +19,7 @@ const AllProducts = () => {
           <div className="row all_products">
             <div className="col-12 col-md-4 col-lg-3 mt-2 mt-md-4" >
               <div className="card">
-                <img src={StarAlkaline} className="card-img-top" alt="..." />
+                <img src={StarAlkaline} className="card-img-top" alt="star alkaline" />
                 <div className="card-body">
                   <h5 className="card-title">Star (Alkaline+Copper)</h5>
                   <p className="card-text">
@@ -31,7 +31,7 @@ const AllProducts = () => {
             </div>
             <div className="col-12 col-md-4 col-lg-3 mt-2 mt-md-4">
               <div className="card">
-                <img src={BioAlkaline} className="card-img-top" alt="..." />
+                <img src={BioAlkaline} className="card-img-top" alt="Bio" />
                 <div className="card-body">
                   <h5 className="card-title">Bio (Alkaline+Copper)</h5>
                   <p className="card-text">
@@ -43,7 +43,7 @@ const AllProducts = () => {
             </div>
             <div className="col-12 col-md-4 col-lg-3 mt-2 mt-md-4">
               <div className="card">
-                <img src={Primium} className="card-img-top" alt="..." />
+                <img src={Primium} className="card-img-top" alt="primium" />
                 <div className="card-body">
                   <h5 className="card-title">Primium (Alkaline+Copper)</h5>
                   <p className="card-text">
@@ -56,7 +56,7 @@ const AllProducts = () => {
 
             <div className="col-12 col-md-4 col-lg-3 mt-2 mt-md-4">
               <div className="card">
-                <img src={Pluto} className="card-img-top" alt="..." />
+                <img src={Pluto} className="card-img-top" alt="pluto" />
                 <div className="card-body">
                   <h5 className="card-title">Pluto (Alkaline+Copper)</h5>
                   <p className="card-text">
@@ -69,7 +69,7 @@ const AllProducts = () => {
 
             <div className="col-12 col-md-4 col-lg-3 mt-2 mt-md-4">
               <div className="card">
-                <img src={Mercury} className="card-img-top" alt="..." />
+                <img src={Mercury} className="card-img-top" alt="mercury" />
                 <div className="card-body">
                   <h5 className="card-title">Mercury (Alkaline+Copper)</h5>
                   <p className="card-text">
@@ -82,7 +82,7 @@ const AllProducts = () => {
 
             <div className="col-12 col-md-4 col-lg-3 mt-2  mt-md-4">
               <div className="card">
-                <img src={Plus} className="card-img-top" alt="..." />
+                <img src={Plus} className="card-img-top" alt="plus" />
                 <div className="card-body">
                   <h5 className="card-title">Plus (Alkaline+Copper)</h5>
                   <p className="card-text">
@@ -95,7 +95,7 @@ const AllProducts = () => {
 
             <div className="col-12 col-md-4 col-lg-3 mt-2  mt-md-4">
               <div className="card">
-                <img src={UTC} className="card-img-top" alt="..." />
+                <img src={UTC} className="card-img-top" alt="utc" />
                 <div className="card-body">
                   <h5 className="card-title">UTC under Sink RO</h5>
                   {/* <p className="card-text">
@@ -109,7 +109,7 @@ const AllProducts = () => {
             </div>
             <div className="col-12 col-md-4 col-lg-3 mt-2  mt-md-4">
               <div className="card">
-                <img src={BioAlkalineCop} className="card-img-top" alt="..." />
+                <img src={BioAlkalineCop} className="card-img-top" alt="bio alkaline" />
                 <div className="card-body">
                 <h5 className="card-title">Bio (Alkaline+Copper)</h5>
                   <p className="card-text">

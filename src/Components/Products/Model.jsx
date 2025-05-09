@@ -15,37 +15,23 @@ const Model = () => {
     <div className="container my-5">
       <div className="row">
         <div className="modelPage">
-          <img src={star} alt="" />
+          <img src={star} alt="star" />
        
-          <img src={mercury} alt="" />
+          <img src={mercury} alt="mercury" />
       
-          <img src={jupiter} alt="" />
+          <img src={jupiter} alt="jupiter" />
       
-          <img src={bio} alt="" />
+          <img src={bio} alt="bio" />
        
-          <img src={plus} alt="" />
+          <img src={plus} alt="plus" />
        
-          <img src={pluto} alt="" />
+          <img src={pluto} alt="pluto" />
        
-          <img src={diamond} alt="" />
+          <img src={diamond} alt="diamond" />
         </div>
       </div>
 
-      {/* 2nd Row  */}
-      {/* <div className="row">
-      <div className="cardPageRo">
-          <img src={carbonFilter} alt="" />
-       
-          <img src={copperFilter} alt="" />
-      
-          <img src={RoMembrane} alt="" />
-      
-          <img src={Sedium} alt="" />
-       
-          <img src={UltraViolet} alt="" />
-
-        </div>
-      </div> */}
+    
     </div>
     </div>
      

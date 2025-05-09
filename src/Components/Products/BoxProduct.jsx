@@ -9,14 +9,93 @@ const BoxProduct = () => {
         <div className="container">
             <div className="row  my-5 box_page py-3">
                 <div className="col-12 col-md-5">
-                    <img src={boxImg} alt="" height={"600px"} width={"100%"} className='box_img'/>
+                    <img src={boxImg} alt="box price" height={"600px"} width={"100%"} className='box_img'/>
                 </div>
                 <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center content">
-                  <h2 className='text-center fs-1 mb-4'>Pure Water For <br/> Good 
-                   <span style={{color: '#a9501c'}}> HEALTH</span></h2>
-                   <p className='product_Data'>Welcome to <i> <b>Dr Aqua Galaxy,</b></i> where innovation meets creativity! We are passionate about crafting unique experiences that resonate with our audience and inspire positive change. Our mission is to create products and services that not only meet the needs of our customers but also reflect our core values of sustainability, inclusivity,  and excellence.</p>
+                  {/* <h2 className='text-center fs-1 mb-4'>Pure Water For <br/> Good 
+                   <span style={{color: '#a9501c'}}> HEALTH</span></h2> */}
+                   {/* <p className='product_Data'>Welcome to <i> <b>Dr Aqua Galaxy,</b></i> where innovation meets creativity! We are passionate about crafting unique experiences that resonate with our audience and inspire positive change. Our mission is to create products and services that not only meet the needs of our customers but also reflect our core values of sustainability, inclusivity,  and excellence.</p> */}
+                  <h3 className='my-3'>Specifications</h3>
+                  <table class="table">
+  <thead>
+    <tr>
+    
+      <th scope="col">Applications</th>
+      <th scope="col">Suitable for Purification of Bracklash / Tap Water</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    
+      <td className='borber-b'>Purification Capacity</td>
+      <td>Upto 20 LPH*</td>
+    </tr>
+    <tr>
+     
+      <td>Body Material</td>
+      <td>ABS Food Grade Plastic</td>
+    </tr>
+    <tr>
+     
+      <td>Mounting</td>
+      <td>On the Wall</td>
+    </tr>
+    <tr>
+     
+     <td>Inlet Water Pressure / Temp (MIN)</td>
+     <td>0.3 kg /cm2 or 4.3psi/10 C of 50 F</td>
+   </tr>
+   <tr>
+     
+     <td>Inlet Water Pressure / Temp (MAX)</td>
+     <td>3 kg /cm2 or 42.7psi/40 C of 104 F</td>
+   </tr>
+   <tr>
+     
+     <td>Weight</td>
+     <td>9.4 kg</td>
+   </tr>
+   <tr>
+     
+     <td>Storage Capacity</td>
+     <td>14 L</td>
+   </tr>
+   <tr>
+     
+     <td>Purification Production Rate</td>
+     <td>20L/hr or 0.33L/min</td>
+   </tr>
+   <tr>
+     
+     <td>Maximun Duty Cycle</td>
+     <td>100 L /Day</td>
+   </tr>
+   <tr>
+     
+     <td>Power Consumption</td>
+     <td>60 W</td>
+   </tr>
+   
+   <tr>
+     
+     <td>Membrane Type</td>
+     <td>Thin Film Composite RO</td>
+   </tr>
+   <tr>
+     
+     <td>Booster Pump Voltage</td>
+     <td>24 V DC</td>
+   </tr>
+   <tr>
+     
+     <td>Input Power Supply</td>
+     <td>Single Phase 220 + 10 V AC, 50 Hz</td>
+   </tr>
+  </tbody>
+</table>
                   
                 </div>
+
             </div>
         </div>
       </section>

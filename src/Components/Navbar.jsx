@@ -21,7 +21,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light fixed-top z-30 bg-light"  >
           <div className="container">
             <a className="navbar-brand" href="#">
-              <img src={logoImg} alt="" height={"50px"} width={"100%"} />
+              <img src={logoImg} alt="logo_img" height={"50px"} width={"100%"} />
             </a>
 
             <button
@@ -41,7 +41,7 @@ const Navbar = () => {
               aria-labelledby="offcanvasExampleLabel"
             >
               <div className="offcanvas-header">
-                <img src={logoImg} alt="" height={"50px"} width={"40%"} />
+                <img src={logoImg} alt="logo_img" height={"50px"} width={"40%"} />
                 <button
                   type="button"
                   className="btn-close text-reset"

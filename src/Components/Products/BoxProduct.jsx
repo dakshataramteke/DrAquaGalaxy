@@ -15,8 +15,8 @@ const BoxProduct = () => {
                   {/* <h2 className='text-center fs-1 mb-4'>Pure Water For <br/> Good 
                    <span style={{color: '#a9501c'}}> HEALTH</span></h2> */}
                    {/* <p className='product_Data'>Welcome to <i> <b>Dr Aqua Galaxy,</b></i> where innovation meets creativity! We are passionate about crafting unique experiences that resonate with our audience and inspire positive change. Our mission is to create products and services that not only meet the needs of our customers but also reflect our core values of sustainability, inclusivity,  and excellence.</p> */}
-                  <h3 className='my-3'>Specifications</h3>
-                  <table class="table">
+                  <h3 className='my-3 text-uppercase' style={{fontSize:'28px'}}>Specifications</h3>
+                  <table className="table">
   <thead>
     <tr>
     

@@ -104,5 +104,5 @@ background-repeat: no-repeat;
 }
 
 tbody, td, tfoot, th, thead, tr{
-    border-color: #0000A0;
+    border-color: gray;
 }

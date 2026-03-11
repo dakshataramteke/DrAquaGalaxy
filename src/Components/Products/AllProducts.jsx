@@ -7,6 +7,13 @@ import Mercury from '../../assets/img/MercuryAlkaline13L.jpg';
 import Plus from '../../assets/img/blueImg.jpg';
 import UTC from '../../assets/img/UTCSinkRO.jpg';
 import BioAlkalineCop from '../../assets/img/BioAlkalineCopper12L.jpg';
+import img2 from '../../assets/img/img2.jpeg';
+import img5 from '../../assets/img/img5.jpeg';
+import img6 from '../../assets/img/img6.jpeg';
+import img7 from '../../assets/img/img7.jpeg';
+import img9 from '../../assets/img/img9.jpeg';
+import img10 from '../../assets/img/img10.jpeg';
+import img12 from '../../assets/img/img12.jpeg';
 // import './Product.css';
 
 const AllProducts = () => {
@@ -119,6 +126,75 @@ const AllProducts = () => {
                 </div>
               </div>
             </div>
+
+              <div className="col-12 col-md-4 col-lg-3 mt-2 mt-md-4">
+              <div className="card">
+                <img src={img2} className="card-img-top" alt="Bio" />
+                <div className="card-body">
+                  <h5 className="card-title">Olix</h5>
+                  <p className="card-text">
+                   Storage Capacity 10Ltr
+                  </p>
+                  <p>Price : <b>&#8377; 20,500/-</b></p>
+                </div>
+              </div>
+            </div>
+
+              <div className="col-12 col-md-4 col-lg-3 mt-2 mt-md-4">
+              <div className="card">
+                <img src={img5} className="card-img-top" alt="Bio" />
+                <div className="card-body">
+                  <h5 className="card-title">X Lexter</h5>
+                  <p className="card-text">
+                   Storage Capacity 12Ltr
+                  </p>
+                  <p>Price : <b>&#8377; 22,500/-</b></p>
+                </div>
+              </div>
+            </div>
+ <div className="col-12 col-md-4 col-lg-3 mt-2 mt-md-4">
+              <div className="card">
+                <img src={img10} className="card-img-top" alt="Bio" />
+                <div className="card-body">
+                  <h5 className="card-title">Aspirent</h5>
+                  <p className="card-text">
+                   Storage Capacity 12Ltr
+                  </p>
+                  <p>Price : <b>&#8377; 20,500/-</b></p>
+                </div>
+              </div>
+            </div>
+         
+         
+              <div className="col-12 col-md-4 col-lg-3 mt-2 mt-md-4">
+              <div className="card">
+                <img src={img9} className="card-img-top" alt="Bio" />
+                <div className="card-body">
+                  <h5 className="card-title">Butterfly White</h5>
+                  <p className="card-text">
+                   Storage Capacity 16Ltr
+                  </p>
+                  <p>Price : <b>&#8377; 20,500/-</b></p>
+                </div>
+              </div>
+            </div>
+
+              <div className="col-12 col-md-4 col-lg-3 mt-2 mt-md-4">
+              <div className="card">
+                <img src={img7} className="card-img-top" alt="Bio" />
+                <div className="card-body">
+                  <h5 className="card-title">Butterfly Black</h5>
+                  <p className="card-text">
+                   Storage Capacity 16Ltr
+                  </p>
+                  <p>Price : <b>&#8377; 20,500/-</b></p>
+                </div>
+              </div>
+            </div>
+
+
+             
+          
           </div>
         </div>
       </section>
